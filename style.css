@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #timer {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .general {
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #timer {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .general {
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+  }
+  
+  button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  /* .green {
+    background-color: green;
+    color: white;
+  }
+  
+  .red {
+    background-color: red;
+    color: white;
+  }
+  
+  .gray {
+    background-color: gray;
+    color: white;
+  }
+   */
+  #greenbutton{
+    background-color: green;
+    color: white;
+  }
+
+  #redbutton{
+    background-color: red;
+    color: white;
+  }
+
+  #graybutton{
+    background-color: grey;
+    color: white;
+  }
+
+  
+  button:disabled {
+    background-color: lightgray;
+    color: black;
+    cursor: not-allowed;
+  }
